@@ -12,7 +12,7 @@ A Neural Network (NN) in Pytorch is implemented to tackle classification problem
 I then show how to use two consecutive random searches to find the best model and discuss its performance. Finally I present some techniques that can help in visualizing what each neuron is learning.
 
 The notable aspects of this project are:
-* The use of a random search with prior distributions based on some heuristics, e.g. for the number of neurons in the hidden layers the compression rate (e.g. the ratio between neurons in one layer and the previous one) that we want to hold in general;
+* The use of a random search with prior distributions based on some heuristics, e.g. for the number of neurons in the hidden layers the compression rate (the ratio between neurons in one layer and the previous one) that we want to hold in general.
 * The visualization of the features encoded by neurons by receptive feld technique and gradient
 ascent over the image.
 
